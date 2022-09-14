@@ -1,8 +1,9 @@
 html {
     scroll-behavior: smooth;
+    scrollbar-width: 1px;
 }
 body {
-    background-color: oldlace;
+    background-color: rgb(255, 255, 255);
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
     height: 100%;
@@ -12,22 +13,25 @@ body {
 }
 /* Heading section */
 header {
-    padding: 12vw 0;
+    padding: 10px 0 200px 0;
     width: 100%;
     margin: 0;
     top: 0;
     left: 0;
     background-image: url("loan_web/header.png");
-    background-size: contain;
+    background-position: center;
     background-attachment: fixed;
-    max-height: 250px;
+}
+.logo img {
+    width: 200px;
+    height: 200px;
 }
 .heading {
     margin-top: 0;
 }
 .heading img {
-    width: 40vw;
-    height: 12vw;
+    width: 50%;
+    height: 40%;
 }
 .subheading {
     margin-left: 20px;
@@ -38,25 +42,25 @@ header {
 }
 /* Navigation section */
 nav {
-    background-color: #006c00;
-    padding: 1.5vw 0;
+    text-align: right;
+    background-color: rgb(255, 255, 255);
+    padding: 2rem 0;
     width: 100%;
     position: sticky;
     top: 0;
 }
 nav a {
+    color: black;
     text-decoration: none;
-    color: rgb(201, 253, 188);
     font-weight: 900;
     font-size: 140%;
-    margin-left: 10px;
     transition: 0.3s all linear;
+    margin-right: 15px;
 }
 nav a:visited {
-    color: #001000;
+    color: #001f00;
 }
 nav a:hover {
-    color: rgb(255, 255, 255);
     text-decoration: underline;
     font-weight: bolder;
 }
@@ -78,8 +82,10 @@ nav a:active {
     transition: 0.4s all linear;
 }
 .content1 {
-    background-color: #006c00;
-    color: white;
+    background-color: #1eff00;
+}
+.content2 {
+    background-color: rgb(245, 245, 245);
 }
 .content1:hover {
     box-shadow: 0px 0px 20px 1px #001000;
@@ -120,7 +126,7 @@ p {
     text-decoration: underline;
 }
 .footer_content a:visited {
-    color: #006c00;
+    color: #003000;
 }
 hr {
     width: 40%;
