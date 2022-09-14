@@ -70,10 +70,11 @@ form input {
     margin-top: 15px;
     border: 1px solid rgb(119, 119, 119);
     border-radius: 4px;
-    font-size: 1rem;
+    font-size: 17px;
 }
 ::placeholder {
     opacity: 60%;
+    color: red;
 }
 :focus {
     outline: none;
