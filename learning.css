@@ -82,7 +82,8 @@ nav a:active {
     transition: 0.4s all linear;
 }
 .content1 {
-    background-color: #1eff00;
+    background-color: #000;
+    color: #fff;
 }
 .content2 {
     background-color: rgb(245, 245, 245);
