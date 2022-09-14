@@ -74,6 +74,7 @@ form input {
 }
 ::placeholder {
     opacity: 60%;
+    color: red;
 }
 :focus {
     outline: none;
