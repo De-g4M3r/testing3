@@ -1,0 +1,143 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: oldlace;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+.cent {
+    height: auto;
+}
+/* Heading section */
+header {
+    padding: 12vw 0;
+    width: 100%;
+    margin: 0;
+    top: 0;
+    left: 0;
+    background-image: url("loan_web/header.png");
+    background-size: contain;
+    background-attachment: fixed;
+    max-height: 250px;
+}
+.heading {
+    margin-top: 0;
+}
+.heading img {
+    width: 40vw;
+    height: 12vw;
+}
+.subheading {
+    margin-left: 20px;
+    font-weight: lighter;
+    color: #ffffff;
+    font-size: large;
+    font-weight: 700;
+}
+/* Navigation section */
+nav {
+    background-color: #006c00;
+    padding: 1.5vw 0;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+nav a {
+    text-decoration: none;
+    color: rgb(201, 253, 188);
+    font-weight: 900;
+    font-size: 140%;
+    margin-left: 10px;
+    transition: 0.3s all linear;
+}
+nav a:visited {
+    color: #001000;
+}
+nav a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    font-weight: bolder;
+}
+nav a:active {
+    color: rgb(26, 224, 0);
+}
+/* Content-1 section */
+.cent h1 {
+    font-weight: lighter;
+    font-size: 250%;
+}
+.content1, .content2 {
+    width: 67%;
+    padding: 10px 30px;
+    box-shadow: 0px 0px 10px 1px #838383;
+    border-radius: 15px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    transition: 0.4s all linear;
+}
+.content1 {
+    background-color: #006c00;
+    color: white;
+}
+.content1:hover {
+    box-shadow: 0px 0px 20px 1px #001000;
+}
+.content2:hover {
+    box-shadow: 0px 0px 20px 1px #001000;
+}
+p {
+    text-align: left;
+    line-height: 28px;
+    font-size: 140%;
+}
+/* Footer Section */
+.footer_content {
+    background-color: #f5f5f5;
+    color: rgb(0, 0, 0);
+    padding: 25px 0px 10px 0px;
+    border-top: 1px solid #bdbdbd;
+}
+.footer_header {
+    font-size: 200%;
+    font-weight: lighter;
+}
+.contact_us {
+    padding-top: 40px;
+}
+.footer_content a {
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    margin: 0 10px;
+    font-size: 110%;
+    font-weight: lighter;
+    line-height: 30px;
+    text-align: left;
+}
+.footer_content a:hover {
+    color:rgb(0, 0, 0);
+    text-decoration: underline;
+}
+.footer_content a:visited {
+    color: #006c00;
+}
+hr {
+    width: 40%;
+    text-align: center;
+}
+.copy {
+    margin-top: 40px;
+    text-align: right;
+    margin-right: 10px;
+    font-weight: lighter;
+    font-size: x-small;
+}
+.up {
+    position: sticky;
+    bottom: 0;
+}
+.up img {
+    width: 50px;
+    height: 50px;
+}
