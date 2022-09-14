@@ -30,15 +30,33 @@ header {
     margin-top: 0;
 }
 .heading img {
-    width: 50%;
+    width: 60%;
     height: 40%;
+    margin-left: 5px;
 }
 .subheading {
-    margin-left: 20px;
+    margin-left: 10px;
     font-weight: lighter;
     color: #ffffff;
     font-size: large;
     font-weight: 700;
+}
+.login button {
+    margin-left: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 30px;
+    border: 1px solid white;
+    font-size: x-large;
+    font-weight: bold;
+    transition: 0.25s all linear;
+}
+.login button:hover {
+    background-color:rgb(0, 0, 0);
+    color: white;
+    border: 1px solid white;
 }
 /* Navigation section */
 nav {
@@ -56,13 +74,13 @@ nav a {
     font-size: 140%;
     transition: 0.3s all linear;
     margin-right: 15px;
-}
-nav a:visited {
-    color: #001f00;
+    padding: 7px;
 }
 nav a:hover {
-    text-decoration: underline;
     font-weight: bolder;
+    color: white;
+    background-color: #000000;
+    border-radius: 3px;
 }
 nav a:active {
     color: rgb(26, 224, 0);
@@ -75,29 +93,29 @@ nav a:active {
 .content1, .content2 {
     width: 67%;
     padding: 10px 30px;
-    box-shadow: 0px 0px 10px 1px #838383;
+    box-shadow: 0px 0px 5px 1px #838383;
     border-radius: 15px;
     margin-top: 80px;
     margin-bottom: 80px;
     transition: 0.4s all linear;
 }
 .content1 {
-    background-color: #000;
-    color: #fff;
+    background-color: #000000;
+    color: white;
 }
 .content2 {
     background-color: rgb(245, 245, 245);
 }
 .content1:hover {
-    box-shadow: 0px 0px 20px 1px #001000;
+    box-shadow: 0px 0px 10px 1px #000000;
 }
 .content2:hover {
-    box-shadow: 0px 0px 20px 1px #001000;
+    box-shadow: 0px 0px 10px 1px #000000;
 }
 p {
     text-align: left;
     line-height: 28px;
-    font-size: 140%;
+    font-size: 120%;
 }
 /* Footer Section */
 .footer_content {
