@@ -21,7 +21,7 @@ nav a {
     color: black;
     text-decoration: none;
     font-weight: 900;
-    font-size: 2.6vh;
+    font-size: 120%;
     transition: 0.3s all linear;
     margin-right: 11px;
     padding: 7px;
@@ -36,7 +36,6 @@ nav a:hover {
 section {
     text-align: center;
     margin-top: 100px;
-    resize: none;
 }
 section h1 {
     font-weight: lighter;
@@ -45,7 +44,8 @@ section h1 {
 form {
     border: none;
     border-radius: 13px;
-    width: 40vh;
+    width: 80%;
+    max-width: 330px;
     padding: 40px 0;
     box-shadow: 0px 0px 5px 1px #afafaf;
 }
@@ -71,16 +71,13 @@ form input {
     margin-top: 15px;
     border: 1px solid rgb(119, 119, 119);
     border-radius: 4px;
-    font-size: 17px;
-    resize: none;
+    font-size: 16px;
 }
 ::placeholder {
     opacity: 60%;
-    color: blue;
 }
 :focus {
     outline: none;
-    font-size: 16px;
 }
 :focus::placeholder {
     opacity: 20%;
@@ -91,7 +88,6 @@ form input {
 .signup a {
     color: black;
     font-weight: lighter;
-    font-size: 16px;
 }
 .signup a:hover {
     font-weight: 400;
