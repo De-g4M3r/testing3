@@ -1,0 +1,104 @@
+html {
+    scroll-behavior: smooth;
+    scrollbar-width: 1px;
+}
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+/* Heading Section */
+nav {
+    text-align: right;
+    background-color: rgb(255, 255, 255);
+    padding: 2rem 0;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 2.6vh;
+    transition: 0.3s all linear;
+    margin-right: 11px;
+    padding: 7px;
+}
+nav a:hover {
+    font-weight: bolder;
+    color: white;
+    background-color: #000000;
+    border-radius: 3px;
+}
+/* Form Section */
+section {
+    text-align: center;
+    margin-top: 100px;
+}
+section h1 {
+    font-weight: lighter;
+    font-size: 40px;
+}
+form {
+    border: none;
+    border-radius: 13px;
+    width: 40vh;
+    padding: 40px 0;
+    box-shadow: 0px 0px 5px 1px #afafaf;
+}
+form button {
+    padding: 9px 55px;
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+    transition: 0.3s all linear;
+}
+form button:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 5px 1px #afafaf;
+}
+form input {
+    width: 85%;
+    height: 40px;
+    margin-top: 15px;
+    border: 1px solid rgb(119, 119, 119);
+    border-radius: 4px;
+    font-size: 1rem;
+}
+::placeholder {
+    opacity: 60%;
+}
+:focus {
+    outline: none;
+}
+:focus::placeholder {
+    opacity: 20%;
+}
+.signup {
+    margin-top: 10px;
+}
+.signup a {
+    color: black;
+    font-weight: lighter;
+}
+.signup a:hover {
+    font-weight: 400;
+}
+.forgotpassword {
+    text-align: center;
+    margin-top: 20px;
+}
+.forgotpassword a {
+    color: black;
+    font-weight: lighter;
+}
+.forgotpassword a:hover {
+    font-weight: 400;
+}
