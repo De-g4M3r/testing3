@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <title>Loyalty Enterprise</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta name="description" content="SignUp to Loyalty Enterprise">
+  <meta name="revised detail" content="last updated time">
+  <meta name="author" content="Emmanuel Demiz Eddie Joshua Kweh">
+  <link href="signup.css" rel="stylesheet" type="text/css">
+  <link rel="icon" href="loan_web/logo.png" type="image/x-icon">
+</head>
+<body>
+<nav align="right">	
+  <a href="index.html">HOME</a>
+  <a href="#about">ABOUT</a>
+  <a href="#service">SERVICE</a>
+</nav>
+<div class="back">
+	<a href="login_page.html">Back</a>
+  </div>
+<section>
+  <h1>Sign Up</h1>
+  <div align="center">
+    <form>
+      <!-- Login form comes here -->
+	  <div><input type="text" placeholder="First Name" title="Enter your First Name"></div>
+	  <div><input type="text" placeholder="Middle Name" title="Enter your Middle Name IF there is any"></div>
+      <div><input type="text" placeholder="Surname" title="Enter your Surname/Lase Name"></div>
+      <div><input type="text" placeholder="Username" title="Enter a Username"></div>
+	  <div><input type="tel" placeholder="Mobile Money Number" title="YOUR Mobile Money Number"</div>
+	  <div><input type="tel" placeholder="Whatsapp/Active Phone Number" title="Must be activate at all times"</div>
+	  <div><input type="text" placeholder="Address" title="Address"</div>
+	  <div><input type="text" placeholder="Occupation"</div>
+	  <hr/>
+	  <div class="sec1">
+		<div class="sec1_header">Date Of Birth</div>
+		<input type="text" pattern="\d*" placeholder="DD" title="Date eg. 05" maxlength="2" minlength="2">
+		<input type="text" pattern="\d*" placeholder="MM" title="Month eg. 03" maxlength="2" minlength="2">
+		<input class="year" type="text" pattern="\d*" placeholder="YYYY" title="Year eg. 1990" maxlength="4" minlength="4">
+	  </div>
+	  <div class="sec2">
+		<div class="sec2_header">Gender</div>
+		<select>
+			<option value="Male">Male</option>
+			<option value="Female">Female</option>
+		</select>
+	  </div>
+	  <div class="sec3">
+		<div class="sec3_header">ID Number (Ghana Card Only)</div>
+		<div><input type="text" placeholder="GHA-000000000-1"></div>
+	  </div>
+	  <div class="sec4">
+		<div class="sec4_header">Photo Of Ghana Card (Front)</div>
+		<input type="file" accept="image/*" id="front_id">
+		<label for="front_id">Upload Ghana Card</label>
+	  </div>
+	  <div class="sec4">
+		<div class="sec4_header">Photo Of Ghana Card (Back)</div>
+		<input type="file" accept="image/*" id="back_id">
+		<label for="back_id">Upload Ghana Card</label>
+	  </div>
+	  <hr/>
+	  <div><input type="password" placeholder="Password" title="Enter your password"></div>
+	  <div><input type="password" placeholder="Confirm Password" title="Enter password again"</div>
+      <div><button type="submit">Sign Up</button></div>
+    </form>
+  </div>
+</section>
+</body>
+</html>
